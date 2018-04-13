@@ -2,8 +2,8 @@
 A python module by Greg Wojtak
 
 ## Overview
-This is a simple, stupid, potentially entertaining yet highly useful (in my
-opinion) of the container name generation code from the Docker project.
+This is a simple, stupid, potentially entertaining, yet highly useful (in my
+opinion) port of the container name generation code from the Docker project.
 It is extremely straight-forward and could be easily modified with your 
 own adjectives and names.
 
@@ -16,6 +16,11 @@ import namegen
 
 name_label = namegen.namegen()
 print(name_label)
+```
+This would generate something like:
+```bash
+[gwojtak@elementaryos]$ ./test.py
+abbreviated_vaughn
 ```
 
 ## Contributions
